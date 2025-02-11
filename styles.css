@@ -69,6 +69,23 @@ header img {
     text-decoration: underline;
 }
 
+/* BandLab Section */
+#Bandlab\ Songs {
+    margin: 40px auto;
+    text-align: center;
+}
+
+#Bandlab\ Songs h2 {
+    color: #e0e0e0; /* Light text for dark background */
+    margin-bottom: 20px;
+}
+
+#Bandlab\ Songs iframe {
+    border-radius: 12px; /* Adds rounded corners */
+    max-width: 100%; /* Makes it responsive */
+    height: 202px; /* Keeps the height as per your code */
+}
+
 /* Footer Styling */
 footer {
     text-align: center;
