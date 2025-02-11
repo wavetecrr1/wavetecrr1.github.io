@@ -1,0 +1,92 @@
+/* General Reset and Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #1f4b99;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #1f4b99;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: black; /* Changed to black */
+}
+
+/* Logo Styling */
+header img {
+    display: block;
+    margin: 0 auto; /* Centers the logo */
+    max-width: 150px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 8px; /* Optional: gives rounded corners */
+}
+
+/* Music Section */
+#music {
+    margin: 40px 0;
+    text-align: center;
+}
+
+#music iframe {
+    margin: 10px 0;
+    border-radius: 12px;
+    max-width: 100%;
+}
+
+/* Tiktok Section */
+#Tiktok\ Page {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.tiktok-embed {
+    max-width: 100%;
+    margin: 20px 0;
+    border-radius: 12px;
+}
+
+.tiktok-embed a {
+    color: #1f4b99;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.tiktok-embed a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f4b99;
+    color: white;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+footer p {
+    font-size: 1rem;
+}
+

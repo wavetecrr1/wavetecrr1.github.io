@@ -1,1 +1,1 @@
-# wavetecrr1.github.io
+# wavetecrr.github.io
