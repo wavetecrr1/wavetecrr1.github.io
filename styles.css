@@ -7,17 +7,10 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #1e1e1e; /* Dark gray background */
+    color: #e0e0e0; /* Light text for readability */
     line-height: 1.6;
     padding: 20px;
-}
-
-h1, h2 {
-    color: #1f4b99;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 /* Header Styling */
@@ -25,22 +18,21 @@ header {
     background-color: #1f4b99;
     padding: 20px 0;
     text-align: center;
-    color: white;
     border-radius: 8px;
 }
 
 header h1 {
     font-size: 2.5rem;
-    color: black; /* Changed to black */
+    color: black; /* Keeps the text black */
 }
 
 /* Logo Styling */
 header img {
     display: block;
-    margin: 0 auto; /* Centers the logo */
-    max-width: 150px; /* Adjust size as needed */
+    margin: 0 auto;
+    max-width: 150px;
     height: auto;
-    border-radius: 8px; /* Optional: gives rounded corners */
+    border-radius: 8px;
 }
 
 /* Music Section */
@@ -89,4 +81,5 @@ footer {
 footer p {
     font-size: 1rem;
 }
+
 
